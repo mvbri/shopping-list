@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+:root {
+    --primary-bg: antiquewhite;
+}
+
+.container {
+    background-color: var(--primary-bg);
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+.list-container {
+    max-width: fit-content;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 5em;
+
+}
+
+.list-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+}
+
+.input-shopping {
+    padding: .2em;
+    padding-left: .5em;
+    background-color: var(--primary-bg);
+    border: none;
+    border-radius: 3px;
+}
